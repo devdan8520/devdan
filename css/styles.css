@@ -1,0 +1,615 @@
+/*
+ * ===================================================================
+ *
+ *  Daniel Fuller's Portfolio Base Stylesheet
+ *  url: ???
+ *  Copyright 2020
+ * ===================================================================
+ */
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+/* site colors
+ #e5ebf0
+ #231F20
+ #363946
+ #028090
+ #92898A
+ */
+
+/* site fonts
+
+ font-family: 'Comfortaa', cursive;
+ font-family: 'Cinzel', serif;
+
+ */
+
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Main Content */
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background: #363946;
+  color: #e5ebf0;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+a,
+a:visited,
+a:active {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  user-select: none;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a:hover {
+  position: relative;
+  color: #a0a0a0;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+.para-1 {
+  background: url("../img/code.jpg") fixed center center;
+  opacity: 0.5;
+  background-repeat: initial;
+  background-size: cover;
+  width: 100%;
+  height: 10vh;
+}
+
+/* main navbar */
+
+.main-navbar {
+  background-color: #2c2f3ad0;
+  font-weight: bolder;
+  border-left: 3px;
+  border-color: #000000;
+  position: fixed;
+  top: 0%;
+  right: 0px;
+  z-index: 10;
+  height: 100%;
+}
+
+.brand-logo {
+  background: url('../img/daniel-fuller-logo.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  right: -7px;
+  top: 1%;
+  width: 3em;
+  height: 35px;
+}
+
+.navb {
+  list-style: none;
+}
+
+.mnav-link {
+  position: relative;
+  right: 16px;
+  top: -6%;
+  display: flex;
+  margin-top: 555%;
+}
+
+.tp-btn {
+  align-items: center;
+  background-color: #2c2f3ad0;
+  color: #ffffff;
+  margin: 1px 5px 1px 5px;
+}
+
+.tp-btn:hover {
+  color: #2c2f3ad0;
+  background-color: #ffffff;
+}
+
+/* Top Content */
+#top {  
+  position: relative;
+  width: 80%;
+  height: 65em;
+}
+
+.top-image {
+  background: url("../img/daniel-fuller-logo-center.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  width: 50%;
+  height: 50em;
+  margin: 0px auto;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.ti-wrap {
+  width: 30em;
+}
+
+.top-intro {
+  font-family: 'Cinzel', serif;
+  position: absolute;
+  margin: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-intro h2 {
+  font-weight: bolder;
+  text-shadow: 2px 2px #0000009c;
+}
+
+.top-intro p {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  text-shadow: none;
+  font-weight: 500;
+  text-shadow: 2px 2px #0000009c;
+}
+
+/* About Content */
+
+.abt-intro {
+  position: relative;
+  text-align: center;
+  margin-bottom: 25em;
+  margin-top: 25em;
+}
+
+.abt-image {
+  background: url("../img/daniel-blacknwhite.jpg");
+  background-position: center;
+  width: 15em;
+  margin-bottom: 2em;
+}
+
+.abt-p {
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+}
+
+.abt-skillp {
+  font-size: 12px;
+  margin-bottom: 0.4em;
+}
+
+.abt-skills {
+  list-style-type: none;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.abt-skill-li {
+  margin: 0px;
+  padding: 0;
+}
+
+
+
+/* Projects Content */
+.pjts-top {
+  position: relative;
+  margin-bottom: 25em;
+  margin-top: 25em;
+  padding: 2em;
+}
+
+.pjts-title {
+  position: relative;
+  text-align: center;
+
+}
+
+.gallery {
+  position: relative;
+  align-self: center;
+  width: 90%;
+  margin: 2%;
+}
+
+.row {
+  position: relative;
+  text-align: center;
+  min-height: 100px;
+}
+
+.card {
+  background-color: #2c2f3ad0;
+}
+
+.card-img-top {
+  position: relative;
+  align-self: center;
+  max-width: 768px;
+  max-height: 360px;
+}
+
+/* Contact Content */
+.contact-form {
+  position: relative;
+  text-align: center;
+  align-content: center;
+  margin: 5em;
+  margin-bottom: 25em;
+  margin-top: 25em;
+  padding: 3em;
+}
+
+.subbtn {
+  background:#363946;
+  color: #ffffff;
+}
+
+.subbtn:hover {
+  color: #686767;
+  text-shadow: #000000 3px 0px 6px 0px;
+}
+
+.resbtn {
+  background:#363946;
+  color: #ffffff;
+}
+
+.resbtn:hover {
+  color: #686767;
+  text-shadow: #000000 3px 0px 6px 0px;
+}
+
+.wrpr {
+  background-color:#6a6c77;
+}
+
+/* Footer */
+
+.foot {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin-top: 15em;
+  margin-bottom: 10em;
+}
+
+.sbar {
+	list-style: none;
+  text-align: center;
+  padding: 0;
+  }
+
+.slink {
+  display: inline;
+  text-align: center;
+  text-indent: 0.8em;
+  font-size: 2em;
+  padding: 0;
+}
+
+/* Misc Content */
+
+/* Responsive Content */
+@media (max-height: 1024px) {
+
+
+  .list-group {
+    position: relative;
+  }
+}
+
+@media (max-height: 812px) {
+
+  .mnav-link,
+  .mnav-link:hover {
+    margin-top: 450%;
+  }
+
+
+  .top-image {
+   margin:0;
+  }
+
+
+  .abt-image {
+    width: 50%;
+  }
+
+
+  .list-group {
+    position: relative;
+  }
+
+
+  .pjts-title {
+    right: 10%;
+
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    height: auto;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0em;
+    margin-top: 15em;
+    margin-bottom: 15em;
+    margin-right: 3em;
+  }
+
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+  * Hide only visually, but have it available for screen readers:
+  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+  *
+  * 1. For long content, line feeds are not interpreted as spaces and small width
+  *    causes content to wrap 1 word per line:
+  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+  */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+  * Extends the .sr-only class to allow the element
+  * to be focusable when navigated to via the keyboard:
+  * https://www.drupal.org/node/897638
+  */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+  * Hide visually and from screen readers, but maintain layout
+  */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+  * Clearfix: contain floats
+  *
+  * For modern browsers
+  * 1. The space content is one way to avoid an Opera bug when the
+  *    `contenteditable` attribute is included anywhere else in the document.
+  *    Otherwise it causes space to appear at the top and bottom of elements
+  *    that receive the `clearfix` class.
+  * 2. The use of `table` rather than `block` is only necessary if using
+  *    `:before` to contain the top-margins of child elements.
+  */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+    ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+    Print styles.
+    Inlined to avoid the additional HTTP request:
+    https://www.phpied.com/delay-loading-your-print-css/
+    ========================================================================== */
+
+@media print {
+
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " ("attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " ("attr(title) ")";
+  }
+
+  /*
+    * Don't show links that are fragment identifiers,
+    * or use the `javascript:` pseudo protocol
+    */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+    * Printing Tables:
+    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+    */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

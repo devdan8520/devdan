@@ -1,0 +1,342 @@
+/*
+ * =================================================================== 
+ *
+ *  Vibestation Base Stylesheet
+ *  designed by: Daniel L Fuller
+ *  Copyright 2019
+ * =================================================================== 
+ */
+
+ /* Google Font Imports 
+ font-family: 'Cinzel', serif;
+font-family: 'Oswald', sans-serif;
+ */
+ @import url('https://fonts.googleapis.com/css?family=Cinzel|Oswald&display=swap');
+
+
+
+ body {
+    background-color: #2e2e2e !important;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+/* tags content and links */
+a,
+a:active {
+    color: #cacaca;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0efef;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #161616d8;
+    color: #ebe7e7;
+    text-decoration: none;
+    border: 0;
+    margin: 0;
+
+}
+
+.dropdown-menu {
+    background-color: #1312125e;
+    color: #cac7c7;
+    text-decoration: none;
+}
+
+.dropdown-menu, .dropdown-item,
+.dropdown-menu, .dropdown-item:active {
+    background-color: #1312129d;
+    color: #5e5b5b;
+    text-decoration: none;
+}
+
+.dropdown-menu, .dropdown-item:hover {
+    background-color: #1312129d;
+    color: #ebe7e7;
+    text-decoration: none;
+    border: 0;
+}
+
+li > a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+li > a:hover,
+li > a:focus {
+color: #ffffff;
+text-decoration: none;
+}
+
+.btn {
+    background-color: #31303000;
+    border: none;
+    color: #e0dddd;
+}
+
+.btn:hover {
+    border: none;
+    color: #ffffff;
+    text-shadow: 2px 2px #00000071;
+}
+
+.btn:focus {
+    border: none;
+    box-shadow: 0;
+    outline: none !important;
+}
+
+.btn::shadow {
+    border: none;
+    box-shadow: 0;
+    outline: none !important;
+}
+
+.navbar-toggler-icon,
+.navbar-toggler-icon:active
+{
+    color: #cac7c7;
+    box-shadow: 0;
+    margin: 0;
+    padding: 5;
+}
+
+/* Header Content */
+
+
+#topimg .btn {
+    background-color: #2e2e2eb6;
+    border: 1px;
+    color: #d4d3d3;
+    padding: 10px 22px;
+}
+
+#topimg .btn:hover {
+    color: #ffffff;
+    box-shadow: 3px 2px 3px #0000006c;
+}
+
+.logo {
+    background-size: cover;
+    background-repeat: none;
+    width: 45px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.logo, .logo-txt {
+    color: #ececec;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+.logoft {
+    position: relative;
+    justify-self: center;
+    width: 14%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main Content */
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #e4e2e2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #c8c9c9;
+    font-weight: 400;
+    size: 23vh;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #c8c9c9;
+    font-weight: 400;
+    size: 18vh;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 52%;
+    color: #ececec;
+    text-shadow: 1px 1px #000000af;
+}
+
+.padding {
+    padding: 6%;
+}
+
+.container {
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Site Content */
+
+#topimg {
+    background: url('img/concert-1149979_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: none;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 15%;
+    text-shadow: 1px 1px #000000ad;
+}
+
+.top-txt {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+#about {
+    color: #e0dddd;
+    font-size: 1.6em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 13em;
+    margin-bottom: 13em;
+}
+
+#a-img01 {
+    background-repeat: none;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 5% 5% 5% 5%;
+    margin: 5%;
+    border: 3px;
+}
+
+#a-img02 {
+    background-repeat: none;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 5% 5% 5% 5%;
+    margin: 5%;
+}
+
+#events {
+    background-color: #292929;
+    color: #e0e0e0;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 150vh;
+    margin: 0;
+}
+
+#contact {
+    background-color: #292929;
+    color: #e0dddd;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    align-content: center;
+    margin: 0;
+}
+
+.address {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 16%;
+    margin: 0;
+}
+
+.card {
+    background-color: transparent;
+    width: 100%;
+}
+
+#schedule {
+    background-color: #1d1d1d;
+    color: #e0e0e0;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.paralax {
+    background: url('img/dark-1838959_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: none;
+    display: table;
+    width: 100%;
+    height: 50vh;
+}
+
+.paralax-2 {
+    background: url('img/dj-2573925_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: none;
+    display: table;
+    width: 100%;
+    height: 50vh;
+}
+
+#foot {
+    background-color: #1d1d1d;
+    color: #e0dddd;
+    position: relative;
+    width: 100%;
+    height: 16em;
+}
+
+#socialmedia {
+    font-size: 1.8em;
+    color: #e0e0e0;
+}
+
+
+
+/* Responsive Content */
+
+@media (max-width: 800px) {
+
+    h1 {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .logo {
+        width: 10%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .top-txt {
+        font-size: 80%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 28%;
+
+    }
+
+
+    #foot {
+        font-size: 60%;
+        text-align: center;
+    }
+    
+    #socialmedia {
+        font-size: 120%;
+    }
+
+}

@@ -1,0 +1,276 @@
+/*
+ * =================================================================== 
+ *
+ *  Daniel L Fuller No fear ministries Stylesheet
+ *  url: daniel-fuller.net
+ *  Copyright 2019
+ * =================================================================== 
+ */
+
+ /* sitewide fonts 
+ 
+    font-family: 'Abel', sans-serif;
+
+    font-family: 'Cinzel', serif;
+ 
+ */
+
+/* fullsite content */
+* {
+   margin: 0px;
+   padding: 0px;
+   }
+
+body {
+  margin: 0px;
+  padding: 0px;
+   font-family: 'Abel', sans-serif;
+   background-color: #ffffff;
+}
+
+.wrapper {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+/* top nav and carousel */
+.top {
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     width: 100%;
+     height: auto;
+     margin-top: 5em;
+     margin-bottom: 5em;
+ }
+
+.logo {
+  width: 5%;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #272727;
+  font-family: 'Cinzel', serif;
+}
+
+.btn,
+.btn:active,
+.btn:focus {
+ background: #575757;
+ color: #ffffff;
+ border: none;
+ text-decoration: none;
+ -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
+
+.btn:hover {
+  background: #575757;
+  color: #272727;
+}
+
+.list-group-item,
+.list-group-item:focus,
+.list-group-item:hover  {   
+ background: #575757;
+ color: #ffffff;
+ border: none;
+ text-decoration: none;
+ -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
+.list-group-item.active, .list-group-item.active:hover {
+background-color: #c5c5c5 !important;
+border-color: #575757 !important;
+color: #575757;
+}
+
+a,
+a:visited,
+a:active {
+   color: #272727;
+   text-decoration: none;
+   user-select: none;
+   font-size: 1.2em;
+   font-weight: 600;
+}
+
+a:hover {
+   color: #575757;
+   text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  color: #272727;
+}
+
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:hover {
+  color: #575757;
+}
+
+.para-1 {
+  background: url("../img/lake.jpg") fixed center center;
+  background-repeat: initial;
+  background-size: cover;
+  width: 100%;
+  height: 10vh;
+}
+/* tags and links */
+.navbar {
+  background: #ffffff;
+  max-height: 5em;
+}
+
+.navbar-collapse,
+.navbar-collapse:active {
+  background-color: #ffffff;
+  width: auto;
+  text-align: center;
+}
+
+#hdcarousel{
+  height: auto;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.carousel,
+.carousel-item {
+  width: 100%;
+  height: auto;
+  max-height: 30em;
+  z-index: 1;
+}
+
+.carousel-caption {
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.carousel-caption h5 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+}
+
+/* News Content */
+#news {
+  position: relative;
+  height: auto;
+}
+
+#info {
+  position: relative;
+  height: auto;
+  min-height: 40em;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+#list-tab {
+  width: auto;
+}
+
+#media {
+  position: relative;
+  height: auto;
+  min-height: 40em;
+  justify-content: center;
+}
+
+#footer {
+  position: relative;
+  height: auto;
+  justify-content: center;
+}
+
+.lg-ft {
+  width: 11%;
+  position: relative;
+  left: 1em;
+  float: left;
+  margin: 3px
+}
+
+.ft-map {
+  position: relative;
+  float: left;
+  margin-left: 4em;
+}
+
+.clearfix{
+  clear:both
+}
+/* Misc Content */
+.social-icons,
+.social-icons ul,
+.social-icons li {
+  list-style: none;
+  float: left;
+  position: relative;
+  left: 20%;
+  margin: 0.6em;
+  font-size: 1.2em;
+}
+
+.social-icons-top {
+  position: relative;
+  display: inline;
+  justify-content: flex-end;
+}
+/* Responsive Content */
+
+@media (max-width: 800px) {
+  .logo {
+     min-width: 4em;
+  }
+
+  .navbar-brand {
+     font-size: 1.3em;
+     font-weight: bolder;
+  }
+  
+  a,
+  a:active,
+  a:hover,
+  a:focus {
+     font-size: 1.2em;
+     font-weight: 600;
+  }
+
+  #hdcarousel {
+     max-height: 15%;
+     margin-bottom: 4em;
+     margin-top: -9em;
+  }
+
+  .carousel-caption {
+     display: none;
+  }
+
+  .top {
+     margin-bottom: 15em;
+ }
+
+  #news {
+     padding: 0em;
+  }
+
+  .lg-ft {
+     width: 15%;
+     margin: 15px;
+  }
+
+  .social-icons,
+  .social-icons ul,
+  .social-icons li {
+  font-size: 110%;
+  padding: 0px;
+  left: 5%;
+  }  
+}

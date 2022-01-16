@@ -1,0 +1,1 @@
+// Daniel Fuller Portfolio Javascript
