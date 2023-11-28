@@ -1,1 +1,0 @@
-/* Episcopal Brotherhood Javascript codebase */
